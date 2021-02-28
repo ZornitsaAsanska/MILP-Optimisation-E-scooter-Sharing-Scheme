@@ -1,0 +1,21 @@
+Row Labels,Balgreen and Roseburn,Blackhall,Broughton North and Powderhall,Broughton South,Bruntsfield,Comely Bank,Dalry and Fountainbridge,Drylaw,Gorgie East,Hillside and Calton Hill,Marchmont East and Sciennes,Marchmont West,Meadowbank and Abbeyhill North,Merchiston and Greenhill,New Town East and Gayfield,Newington and Dalkeith Road,"Old Town, Princes Street and Leith Street",Prestonfield,Stockbridge,Tollcross
+Balgreen and Roseburn,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,3,0,0,2
+Blackhall,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,3,0,1,3
+Broughton North and Powderhall,0,0,1,0,0,1,0,0,0,1,0,0,0,0,1,0,5,0,1,3
+Broughton South,0,0,0,0,0,0,0,0,0,1,0,0,0,1,1,0,5,0,0,3
+Bruntsfield,0,0,0,0,1,0,1,0,0,1,1,0,0,2,0,0,6,0,0,5
+Comely Bank,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,3,0,0,3
+Dalry and Fountainbridge,0,0,0,0,0,0,2,0,0,1,0,0,0,1,0,1,5,0,0,5
+Drylaw,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,2,0,0,1
+Gorgie East,0,0,0,0,0,0,1,0,0,0,0,0,0,1,0,0,3,0,0,2
+Hillside and Calton Hill,0,0,0,0,0,0,1,0,0,1,0,0,0,1,1,1,7,0,1,3
+Marchmont East and Sciennes,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,6,0,0,2
+Marchmont West,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,5,0,0,2
+Meadowbank and Abbeyhill North,0,0,0,0,0,0,0,0,0,1,0,0,1,0,1,0,6,0,0,2
+Merchiston and Greenhill,0,0,0,0,1,0,0,0,0,0,0,0,0,1,0,0,4,0,0,3
+New Town East and Gayfield,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,4,0,0,2
+Newington and Dalkeith Road,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,4,0,0,2
+"Old Town, Princes Street and Leith Street",0,0,0,0,0,0,0,0,0,1,0,0,0,1,1,0,7,0,1,2
+Prestonfield,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,2,1,0,1
+Stockbridge,0,0,0,0,0,1,1,0,0,1,0,0,0,1,1,0,6,0,1,6
+Tollcross,0,0,0,0,1,0,1,0,0,0,0,0,0,1,1,0,5,0,1,6
