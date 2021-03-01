@@ -45,4 +45,3 @@ C_pen_reduced = df_penalty.loc[idx]
 csv = C_pen_reduced.to_csv(index=False)
 with open('Data/Penalty Carbon Costs Smaller set.csv', 'w') as f:
     f.write(csv)
-
