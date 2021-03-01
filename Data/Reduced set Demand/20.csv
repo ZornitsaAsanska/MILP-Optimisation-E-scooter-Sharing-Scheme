@@ -3,19 +3,19 @@ Balgreen and Roseburn,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 Blackhall,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 Broughton North and Powderhall,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 Broughton South,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-Bruntsfield,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Bruntsfield,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
 Comely Bank,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-Dalry and Fountainbridge,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Dalry and Fountainbridge,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1
 Drylaw,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 Gorgie East,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-Hillside and Calton Hill,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Hillside and Calton Hill,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0
 Marchmont East and Sciennes,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 Marchmont West,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 Meadowbank and Abbeyhill North,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 Merchiston and Greenhill,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 New Town East and Gayfield,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 Newington and Dalkeith Road,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-"Old Town, Princes Street and Leith Street",0,1,1,1,1,0,1,0,1,1,1,1,1,1,1,1,2,0,1,1
+"Old Town, Princes Street and Leith Street",0,0,1,1,1,0,1,0,0,2,1,1,1,0,1,1,0,0,1,2
 Prestonfield,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 Stockbridge,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-Tollcross,0,1,0,0,1,1,1,0,0,1,0,0,0,1,0,0,1,0,1,1
+Tollcross,0,0,0,0,1,0,1,0,1,0,1,1,0,1,0,0,1,0,1,0
