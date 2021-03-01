@@ -26,3 +26,23 @@ for k,v in demand.items():
     csv = reduced.to_csv(index=False)
     with open('Data/Reduced set Demand/' + str(k) + '.csv', 'w') as f:
         f.write(csv)
+
+# Distance Data
+df_distance = pd.read_csv("Data/Model Data - Distance Matrix.csv")
+df_distance.fillna(0, inplace=True)
+
+rows = df_distance.loc[idx]
+locations = list(rows['Location'])
+locations.insert(0,'Location')
+reduced = rows[locations]
+csv = reduced.to_csv(index=False)
+with open('Data/Model Data - Smaller set Distance.csv', 'w') as f:
+    f.write(csv)
+
+# Penalty data
+df_penalty = pd.read_csv("Data/Penalty Carbon Costs.csv")
+C_pen_reduced = df_penalty.loc[idx]
+csv = C_pen_reduced.to_csv(index=False)
+with open('Data/Penalty Carbon Costs Smaller set.csv', 'w') as f:
+    f.write(csv)
+
