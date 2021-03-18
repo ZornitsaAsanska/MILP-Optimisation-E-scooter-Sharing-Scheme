@@ -9,19 +9,15 @@ import argparse
 from geojson import Feature, Point, FeatureCollection, dump, dumps
 
 parser = argparse.ArgumentParser()
-parser.add_argument("--reduced", help="Generate a geojson map using the reduced set of data points")
-parser.add_argument("p", help="Path to the results of the optimisation model")
+parser.add_argument("coordinatePath", help="Generate a geojson map using the reduced set of data points")
+parser.add_argument("modelPath", help="Path to the results of the optimisation model")
 
 args = parser.parse_args()
-df_locations = pd.read_csv(args.p)
 
 # Reading results of the Optimisation model into a dataframe
 # along with (lat, lon) coordinates of each candidate location
-
-if args.reduced:
-    coords = np.loadtxt("Data/coordinates-reduced.csv",delimiter=",")
-else:
-    coords = np.loadtxt("Data/coordinates.csv", delimiter=",")
+df_locations = pd.read_csv(args.modelPath)
+coords = np.loadtxt(args.coordinatePath, delimiter=",")
 
 df_locations['Longitude'] = coords[:,0]
 df_locations['Latitude'] = coords[:,1]
