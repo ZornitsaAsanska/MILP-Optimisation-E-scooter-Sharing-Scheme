@@ -15602,6 +15602,28 @@ Availability_Balance_(9,_9): #Available_Scooters_(9,_8)
  - #Used_Scooters_((9,_8),_(4,_9)) - #Used_Scooters_((9,_8),_(5,_9))
  - #Used_Scooters_((9,_8),_(6,_9)) - #Used_Scooters_((9,_8),_(7,_9))
  - #Used_Scooters_((9,_8),_(8,_9)) = 0
+Maximum_Budget: 0.38 #Available_Scooters_(0,_0)
+ + 0.38 #Available_Scooters_(1,_0) + 0.38 #Available_Scooters_(10,_0)
+ + 0.38 #Available_Scooters_(11,_0) + 0.38 #Available_Scooters_(12,_0)
+ + 0.38 #Available_Scooters_(13,_0) + 0.38 #Available_Scooters_(14,_0)
+ + 0.38 #Available_Scooters_(15,_0) + 0.38 #Available_Scooters_(16,_0)
+ + 0.38 #Available_Scooters_(17,_0) + 0.38 #Available_Scooters_(18,_0)
+ + 0.38 #Available_Scooters_(19,_0) + 0.38 #Available_Scooters_(2,_0)
+ + 0.38 #Available_Scooters_(3,_0) + 0.38 #Available_Scooters_(4,_0)
+ + 0.38 #Available_Scooters_(5,_0) + 0.38 #Available_Scooters_(6,_0)
+ + 0.38 #Available_Scooters_(7,_0) + 0.38 #Available_Scooters_(8,_0)
+ + 0.38 #Available_Scooters_(9,_0) + 0.92 Size_0 + 0.92 Size_1 + 0.92 Size_10
+ + 0.92 Size_11 + 0.92 Size_12 + 0.92 Size_13 + 0.92 Size_14 + 0.92 Size_15
+ + 0.92 Size_16 + 0.92 Size_17 + 0.92 Size_18 + 0.92 Size_19 + 0.92 Size_2
+ + 0.92 Size_3 + 0.92 Size_4 + 0.92 Size_5 + 0.92 Size_6 + 0.92 Size_7
+ + 0.92 Size_8 + 0.92 Size_9 + 2.3 Station_Presence_0 + 2.3 Station_Presence_1
+ + 2.3 Station_Presence_10 + 2.3 Station_Presence_11 + 2.3 Station_Presence_12
+ + 2.3 Station_Presence_13 + 2.3 Station_Presence_14 + 2.3 Station_Presence_15
+ + 2.3 Station_Presence_16 + 2.3 Station_Presence_17 + 2.3 Station_Presence_18
+ + 2.3 Station_Presence_19 + 2.3 Station_Presence_2 + 2.3 Station_Presence_3
+ + 2.3 Station_Presence_4 + 2.3 Station_Presence_5 + 2.3 Station_Presence_6
+ + 2.3 Station_Presence_7 + 2.3 Station_Presence_8 + 2.3 Station_Presence_9
+ <= 500
 Maximum_Demand_for_((0,_0),_(1,_1)): #Used_Scooters_((0,_0),_(1,_1)) <= 0
 Maximum_Demand_for_((0,_0),_(10,_1)): #Used_Scooters_((0,_0),_(10,_1)) <= 0
 Maximum_Demand_for_((0,_0),_(11,_1)): #Used_Scooters_((0,_0),_(11,_1)) <= 0
@@ -25522,13 +25544,6 @@ Maximum_Demand_for_((9,_9),_(5,_10)): #Used_Scooters_((9,_9),_(5,_10)) <= 0
 Maximum_Demand_for_((9,_9),_(6,_10)): #Used_Scooters_((9,_9),_(6,_10)) <= 0
 Maximum_Demand_for_((9,_9),_(7,_10)): #Used_Scooters_((9,_9),_(7,_10)) <= 0
 Maximum_Demand_for_((9,_9),_(8,_10)): #Used_Scooters_((9,_9),_(8,_10)) <= 0
-Maximum_number_of_docks: Station_Presence_0 + Station_Presence_1
- + Station_Presence_10 + Station_Presence_11 + Station_Presence_12
- + Station_Presence_13 + Station_Presence_14 + Station_Presence_15
- + Station_Presence_16 + Station_Presence_17 + Station_Presence_18
- + Station_Presence_19 + Station_Presence_2 + Station_Presence_3
- + Station_Presence_4 + Station_Presence_5 + Station_Presence_6
- + Station_Presence_7 + Station_Presence_8 + Station_Presence_9 <= 60
 Maximum_size_constraint_(0,_0): #Available_Scooters_(0,_0)
  - 100 Station_Presence_0 <= 0
 Maximum_size_constraint_(0,_1): #Available_Scooters_(0,_1)

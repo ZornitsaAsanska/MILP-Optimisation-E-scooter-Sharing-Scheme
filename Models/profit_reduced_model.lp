@@ -25528,7 +25528,7 @@ Maximum_number_of_docks: Station_Presence_0 + Station_Presence_1
  + Station_Presence_16 + Station_Presence_17 + Station_Presence_18
  + Station_Presence_19 + Station_Presence_2 + Station_Presence_3
  + Station_Presence_4 + Station_Presence_5 + Station_Presence_6
- + Station_Presence_7 + Station_Presence_8 + Station_Presence_9 <= 60
+ + Station_Presence_7 + Station_Presence_8 + Station_Presence_9 <= 10
 Maximum_size_constraint_(0,_0): #Available_Scooters_(0,_0)
  - 100 Station_Presence_0 <= 0
 Maximum_size_constraint_(0,_1): #Available_Scooters_(0,_1)
